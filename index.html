@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gaming Website</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- ANIMATION CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/easy.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- font-awesome-cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--  the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+
+    <!--  the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+
+</head>
+
+<body class="gaming_website">
+
+    <!-- header begin -->
+    <header class="transparent header p-relative">
+        <div class="container">
+            <div class="flex flex-sb">
+                <!-- logo begin -->
+                <div id="logo">
+                    <a href="/">
+                        <img class="logo_main" src="images/logo.png" alt="logo">
+                        <img class="logo_mobile" src="images/logo-mobile.png" alt="logo">
+                    </a>
+                </div>
+                <!-- logo close -->
+                <ul class="flex gap-2 header_menu">
+                    <li><a class="menu-item" href="/">Home</a></li>
+                    <li><a class="menu-item" href="/">about us</a></li>
+                    <li><a class="menu-item" href="/">Game store</a></li>
+                    <li><a class="menu-item" href="/">News</a></li>
+                    <li><a class="menu-item" href="/">Support</a></li>
+                </ul>
+
+                <div class="menu_side_area flex gap-1">
+                    <a href="/" class="btn">Get your game</a>
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- header close -->
+    <main>
+        <section class="headerbgdata">
+            <div class="headerbg">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide" data-aos="zoom-out-down">
+                            <div class="swiper-inner"
+                                style="background: url('images/slider/3917397-elden-ring-sale.jpeg') no-repeat center center/cover;">
+                                <div class="sw-caption">
+                                    <div class="container">
+                                        <div class="con_data">
+                                            <div>
+                                                <h1 class="slider-title text-uppercase mb-1" data-aos="fade-up">Elden Ring</h1>
+                                            </div>
+                                            <div>
+                                               
+                                                <div class="mt-1">
+
+                                                    <div data-aos="fade-up">
+                                                        <span class="d-cur">$</span>
+                                                        <span class="d-val">9.99</span>
+                                                    </div>
+                                                </div>
+                                                <a class="btn mt-1" href="/">Order Your Game Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sw-overlay"></div>
+                            </div>
+                        </div>
+
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="swiper-inner"
+                                style="background: url('images/slider/624973-grand-theft-auto-v-action-adventure-rockstar-violence-crime-gta-1gta5-five-fighting-1.jpeg') no-repeat center center/cover;">
+                                <div class="sw-caption">
+                                    <div class="container">
+                                        <div class="con_data">
+                                            <div>
+                                                <h1 class="slider-title text-uppercase mb-1">Grand theft auto V</h1>
+                                            </div>
+                                            <div>
+                                               
+                                                <div class="mt-1">
+
+                                                    <div>
+                                                        <span class="d-cur">$</span>
+                                                        <span class="d-val">12.99</span>
+                                                    </div>
+                                                </div>
+                                                <a class="btn mt-1" href="/">Order Your Game Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sw-overlay"></div>
+                            </div>
+                        </div>
+
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="swiper-inner"
+                                style="background: url('images/slider/Modern-Warfare-2-120FPS.avif') no-repeat center center/cover;">
+                                <div class="sw-caption">
+                                    <div class="container">
+                                        <div class="con_data">
+                                            <div>
+                                                <h1 class="slider-title text-uppercase mb-1">Call Of Duty</h1>
+                                            </div>
+                                            <div>
+                                                
+                                                <div class="mt-1">
+
+                                                    <div>
+                                                        <span class="d-cur">$</span>
+                                                        <span class="d-val">14.99</span>
+                                                    </div>
+                                                </div>
+                                                <a class="btn mt-1" href="/">Order Your Game Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sw-overlay"></div>
+                            </div>
+                        </div>
+
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="swiper-inner"
+                                style="background: url('images/slider/p1_3160091_870137b7.jpeg') no-repeat center center/cover;">
+                                <div class="sw-caption">
+                                    <div class="container">
+                                        <div class="con_data">
+                                            <div>
+                                                <h1 class="slider-title text-uppercase mb-1">Sekiro</h1>
+                                            </div>
+                                            <div>
+                                                
+                                                <div class="mt-1">
+
+                                                    <div>
+                                                        <span class="d-cur">$</span>
+                                                        <span class="d-val">15.99</span>
+                                                    </div>
+                                                </div>
+                                                <a class="btn mt-1" href="/">Order Your Game Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sw-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+        <section class="premiumstore">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="w-100" data-aos="fade-right">
+                        <div class="subtitle mtb-1">Incredibly features</div>
+                        <h2 class="title mb-1">Premium Games store</h2>
+                    </div>
+                    <div class="w-100 flex mt-1 p_de_cont">
+                        <div class="p_details" data-aos="fade-up">
+                            <div>
+                                <img src="images/icons/1.png" class="mb20" alt="">
+                                <h4>Vast Game Library</h4>
+                                <p> Discover a massive collection of games for PC and consoles—spanning the latest
+                                    releases, timeless classics, and hidden gems.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="p_details" data-aos="fade-down">
+                            <div>
+                                <img src="images/icons/3.png" class="mb20" alt="">
+                                <h4>Exclusive Deals</h4>
+                                <p>Score unbeatable discounts, bundles, and limited-time offers on the games you love.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="p_details" data-aos="fade-up">
+                            <div>
+                                <img src="images/icons/2.png" class="mb20" alt="">
+                                <h4>Cross-Platform Compatibility</h4>
+                                <p>Whether you’re a PlayStation pro, an Xbox enthusiast, or a PC master, we’ve got you
+                                    covered.</p>
+                            </div>
+                        </div>
+
+                        <div class="p_details" data-aos="fade-down">
+                            <div>
+                                <img src="images/icons/4.png" class="mb20" alt="">
+                                <h4>Community-Centric</h4>
+                                <p>Join a thriving community of gamers through our forums, blogs, and live streams.
+                                    .</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-locations">
+            <div class="container">
+                <div class="flex gap-1">
+                    <div class="w-50" data-aos="fade-right">
+                        <img src="images/misc/rb_2078.png" class="img-fluid mb-sm-30 wow fadeIn" alt="">
+                    </div>
+
+                    <div class="w-50 gap-1" data-aos="fade-left">
+                        <div class="subtitle mb-1">About Us
+                        </div>
+                        <h2 class="title"><span class="text-gradient">At Metaplay, we’re more than just a game store
+                        </h2>
+                        <p class="mt-1">we’re your gateway to incredible adventures.
+                            Founded by passionate gamers, our mission is to bring the best gaming experiences to players
+                            worldwide. We combine cutting-edge technology with our love for gaming to create a store
+                            that’s built by gamers, for gamers.
+                            From the moment you visit our site, you’ll find a platform designed to celebrate all things
+                            gaming. Welcome to the family.....</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="startgame">
+            <div class="container p-relative">
+                <div class="flex p-relative">
+                    <div class="wh-100 p-relative">
+                        <div class="p-relative wh-100" data-aos="zoom-out-up">
+                            <div class="flex game_bg">
+                                <div class="w-50">
+                                    <div class="subtitle mb-1" data-aos="fade-right">Our Game Projects</div>
+                                    <h2 class="title" data-aos="fade-up">Metaplay Originals</h2>
+                                    <p class="mb-15" data-aos="fade-left">We don’t just sell games—we’re creators, too!
+                                        Explore our exclusive lineup of original games developed by our in-house team.
+                                        Whether you’re into immersive RPGs, fast-paced shooters, or indie storytelling
+                                        masterpieces, there’s a Metaplay Original for everyone.</p>
+                                    <a class="btn_2" href="/">know more</a>
+                                </div>
+                                <img src="images/misc/avatar.webp" class="s_img2" alt="gameimg" data-aos="zoom-out">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="custreviews">
+            <div class="container">
+                <div class="cstitle" data-aos="fade-right">
+                    <div class="subtitle mb20">Customer reviews</div>
+                    <h2 class="mt-15 title">4.85 out of 5</h2>
+                    <div class="mb-15"></div>
+                </div>
+            </div>
+            <div class="custrev">
+                <div class="comentslick" id="testimonial-carousel" data-aos="fade-up">
+                    <div class="item">
+                        <div class="de_testi type-2">
+                            <blockquote>
+                                <div class="c-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>"Metaplay has completely changed the way I shop for games. Their collection is
+                                    incredible, with everything from AAA titles to indie gems. Plus, their deals are
+                                    unbeatable! I’ve saved so much money while expanding my library."
+                                </p>
+                                <div class="de_testi_by">
+                                    <img alt="" src="images/people/1.jpg"> <span>Michael S.</span>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="de_testi type-2">
+                            <blockquote>
+                                <div class="c-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>"I’m blown away by how easy it is to shop on Metaplay. The website is intuitive,
+                                    loads quickly, and has plenty of secure payment options. It’s the most seamless
+                                    online shopping experience I’ve had."</p>
+                                <div class="de_testi_by">
+                                    <img alt="" src="images/people/2.jpg"> <span>Robert L.</span>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="de_testi type-2">
+                            <blockquote>
+                                <div class="c-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>"Metaplay isn’t just a store—it’s a community. I’ve met so many like-minded gamers
+                                    through their forums and streams. It feels like I’m part of something bigger than
+                                    just buying games."</p>
+                                <div class="de_testi_by">
+                                    <img alt="" src="images/people/3.jpg"> <span>Jake M.</span>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="de_testi type-2">
+                            <blockquote>
+                                <div class="c-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>"I had an issue with a game code, but Metaplay’s customer support was on it
+                                    immediately. They were polite, professional, and fixed everything in no time. A+
+                                    service!"</p>
+                                <div class="de_testi_by">
+                                    <img alt="" src="images/people/4.jpg"> <span>Alex P.</span>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="de_testi type-2">
+                            <blockquote>
+                                <div class="c-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>"I was skeptical at first, but Metaplay really delivers on their promise of great
+                                    deals. I’ve bought several games here that were much cheaper than on other
+                                    platforms. It’s my go-to for game shopping now."</p>
+                                <div class="de_testi_by">
+                                    <img alt="" src="images/people/5.jpg"> <span>Carlos R.</span>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="de_testi type-2">
+                            <blockquote>
+                                <div class="c-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>"The Metaplay Originals are such a treat! You can tell they’re made with passion and
+                                    creativity. I just finished one of their indie titles, and it’s one of the best
+                                    games I’ve ever played."</p>
+                                <div class="de_testi_by">
+                                    <img alt="" src="images/people/6.jpg"> <span>Edward B.</span>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="de_testi type-2">
+                            <blockquote>
+                                <div class="c-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>"I love how Metaplay caters to every kind of gamer. I use it for my PS5 and my gaming
+                                    PC, and the selection is equally amazing for both. They’ve thought of everything."
+                                </p>
+                                <div class="de_testi_by">
+                                    <img alt="" src="images/people/7.jpg"> <span>Daniel H.</span>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="de_testi type-2">
+                            <blockquote>
+                                <div class="c-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>"Metaplay has redefined what an online game store should be. It’s fun to browse, easy
+                                    to shop, and has something for everyone. If you’re not using Metaplay, you’re
+                                    missing out!"
+                                </p>
+                                <div class="de_testi_by">
+                                    <img alt="" src="images/people/8.jpg"> <span>Bryan G.</span>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="jarallax">
+            <div class="de-gradient-edge-top"></div>
+            <div class="de-gradient-edge-bottom"></div>
+            <div class="container mt-3 game-cards">
+                <div class="flex flex-sb">
+                    <div>
+                        <div class="subtitle" data-aos="fade-right">Most complete</div>
+                        <h2 class="title mt-15" data-aos="fade-left">Game Collection</h2>
+                    </div>
+                    <div data-aos="fade-left">
+                        <a class="btn_2" href="#">View all games</a>
+                    </div>
+                </div>
+                <div class="flex flex-wrap flex-sb g-cards">
+                    <div class="gallery-item" data-aos="zoom-in-down" data-aos-duration="1500">
+                        <div class="d-overlay">
+                            <div class="d-label">
+                                20% OFF
+                            </div>
+                            <div class="d-text">
+                                <h4>Sekiro</h4>
+                                <p><span class="price">$14.99</span></p>
+                                <a class="btn_2 w-100" href="pricing-table-one.html">Order Now</a>
+                            </div>
+                        </div>
+                        <img src="images/covers/1.jpeg" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="gallery-item" data-aos="zoom-in-down" data-aos-duration="1800">
+                        <div class="d-overlay">
+                            <div class="d-label">
+                                20% OFF
+                            </div>
+                            <div class="d-text">
+                                <h4>GTA V</h4>
+                                <p> <span class="price">$14.99</span></p>
+                                <a class="btn_2 w-100" href="pricing-table-one.html">Order Now</a>
+                            </div>
+                        </div>
+                        <img src="images/covers/2.jpeg" class="img-fluid " alt="">
+                    </div>
+
+                    <div class="gallery-item" data-aos="zoom-in-down" data-aos-duration="2000">
+                        <div class="d-overlay">
+                            <div class="d-label">
+                                20% OFF
+                            </div>
+                            <div class="d-text">
+                                <h4>cyberpunk 2077</h4>
+                                <p> <span class="price">$14.99</span></p>
+                                <a class="btn_2 w-100" href="pricing-table-one.html">Order Now</a>
+                            </div>
+                        </div>
+                        <img src="images/covers/3.jpeg" class="img-fluid " alt="">
+                    </div>
+
+                    <div class="gallery-item" data-aos="zoom-in-down" data-aos-duration="2200">
+                        <div class="d-overlay">
+                            <div class="d-label">
+                                20% OFF
+                            </div>
+                            <div class="d-text">
+                                <h4>Assassins creed</h4>
+                                <p> <span class="price">$14.99</span></p>
+                                <a class="btn_2 w-100" href="pricing-table-one.html">Order Now</a>
+                            </div>
+                        </div>
+                        <img src="images/covers/4.webp" class="img-fluid " alt="">
+                    </div>
+
+                    <div class="gallery-item" data-aos="fade-right">
+                        <div class="d-overlay">
+                            <div class="d-label">
+                                20% OFF
+                            </div>
+                            <div class="d-text">
+                                <h4>Elden Ring</h4>
+                                <p> <span class="price">$14.99</span></p>
+                                <a class="btn_2 w-100" href="pricing-table-one.html">Order Now</a>
+                            </div>
+                        </div>
+                        <img src="images/covers/5.webp" class="img-fluid " alt="">
+                    </div>
+
+                    <div class="gallery-item" data-aos="fade-right">
+                        <div class="d-overlay">
+                            <div class="d-label">
+                                20% OFF
+                            </div>
+                            <div class="d-text">
+                                <h4>Call Of Duty</h4>
+                                <p> <span class="price">$14.99</span></p>
+                                <a class="btn_2 w-100" href="pricing-table-one.html">Order Now</a>
+                            </div>
+                        </div>
+                        <img src="images/covers/6.jpeg" class="img-fluid " alt="">
+                    </div>
+
+                    <div class="gallery-item" data-aos="fade-right">
+                        <div class="d-overlay">
+                            <div class="d-label">
+                                20% OFF
+                            </div>
+                            <div class="d-text">
+                                <h4>Dark Souls</h4>
+                                <p><span class="price">$14.99</span></p>
+                                <a class="btn_2 w-100" href="pricing-table-one.html">Order Now</a>
+                            </div>
+                        </div>
+                        <img src="images/covers/7.jpeg" class="img-fluid " alt="">
+                    </div>
+
+                    <div class="gallery-item sandbox" data-aos="fade-right">
+                        <div class="d-overlay">
+                            <div class="d-label">
+                                20% OFF
+                            </div>
+                            <div class="d-text">
+                                <h4>God Of War</h4>
+                                <p><span class="price">$14.99</span></p>
+                                <a class="btn_2 w-100" href="pricing-table-one.html">Order Now</a>
+                            </div>
+                        </div>
+                        <img src="images/covers/8.jpeg" class="img-fluid" alt="">
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+        <section class="anyquestion">
+            <div class="container">
+                <div class="flex flex-col flex-left flex-wrap">
+                    <div class="w-100" data-aos="zoom-in-left">
+                        <div class="subtitle mb-1">Do you have</div>
+                        <h2 class="title mt-1">Any questions?</h2>
+                    </div>
+                    <div class="flex mt-15 gap-15" id="accordionContainer">
+                        <div class="w-50">
+                            <div class="accordion-section" data-aos="fade-up">
+                                <div class="accordion-section-title">
+                                    <div class="accordion-header">
+                                        What platforms does Metaplay support?
+                                    </div>
+                                    <div class="accordion-section-content" id="section1">
+                                        <p>Metaplay offers games for a wide range of platforms, including PC,
+                                            PlayStation, Xbox, and Nintendo Switch. We strive to have something for
+                                            every gamer, no matter your preferred console or system.
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-section-title">
+                                    <div class="accordion-header">
+                                        How do I purchase a game from Metaplay?
+                                    </div>
+                                    <div class="accordion-section-content" id="section2">
+                                        <p>Simply browse our store, select the game you want, and add it to your cart.
+                                            Once you complete the checkout process, you’ll receive a digital code or
+                                            download link, depending on the product.
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-section-title">
+                                    <div class="accordion-header">
+                                        Does Metaplay offer discounts or deals?
+                                    </div>
+                                    <div class="accordion-section-content" id="section3">
+                                        <p>Yes! We regularly feature discounts, bundles, and exclusive deals on a
+                                            variety of games. Be sure to check our "Deals" section and subscribe to our
+                                            newsletter to stay updated.
+
+                                            .</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-section-title">
+                                    <div class="accordion-header">
+                                        What are Metaplay Originals?
+
+                                    </div>
+                                    <div class="accordion-section-content" id="section4">
+                                        <p>Metaplay Originals are our exclusive games developed in-house. These unique
+                                            titles are only available through Metaplay and are crafted with love by our
+                                            team of passionate developers
+
+                                            .</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-section-title">
+                                    <div class="accordion-header">
+                                        What is your refund policy?
+
+                                    </div>
+                                    <div class="accordion-section-content" id="section5">
+                                        <p>Refunds are available for eligible purchases under certain conditions. If you
+                                            encounter issues with a game or product, please contact our customer support
+                                            team for assistance.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-50">
+                            <div class="accordion-section">
+                                <div class="accordion-section" data-aos="fade-down">
+                                    <div class="accordion-section-title">
+                                        <div class="accordion-header">
+                                            How can I contact customer support?
+                                        </div>
+                                        <div class="accordion-section-content" id="section6">
+                                            <p>You can reach our customer support team via email, live chat on our
+                                                website, or through the Contact Us page. We’re here to help with any
+                                                questions or concerns!
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-section-title">
+                                        <div class="accordion-header">
+                                            Does Metaplay support indie developers?
+
+                                        </div>
+                                        <div class="accordion-section-content" id="section7">
+                                            <p>Absolutely! We’re proud to support indie game creators by offering their
+                                                games on our platform and providing resources to help them succeed.
+                                                Check out our "Indie Spotlight" section for the latest indie titles.</p>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-section-title">
+                                        <div class="accordion-header">
+                                            Can I gift games to friends?
+                                        </div>
+                                        <div class="accordion-section-content" id="section8">
+                                            <p>Yes, you can! Many of our games include a gifting option during checkout.
+                                                Simply choose the “Gift” option, enter your friend’s email, and they’ll
+                                                receive a digital code for the game.
+
+
+                                        </div>
+                                    </div>
+                                    <div class="accordion-section-title">
+                                        <div class="accordion-header">
+                                            Can I track my order?
+                                        </div>
+                                        <div class="accordion-section-content" id="section9">
+                                            <p>For digital purchases, you’ll instantly receive your order in your
+                                                account or email. If you’re purchasing physical merchandise (if
+                                                applicable), tracking details will be shared once the item ships.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-section-title">
+                                        <div class="accordion-header">
+                                            Is there 24/7 customer support?
+                                        </div>
+                                        <div class=" accordion-section-content" id="section10">
+                                            <p>Many reputable game hosting providers offer 24/7 customer support to
+                                                assist with
+                                                technical issues </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="downloadnow">
+            <div class="container">
+                <div class="donwloadbg flex p-relative">
+                    <div class="w-50" data-aos="fade-up">
+                        <div class="subtitle mb-1">Download now</div>
+                        <h2 class="title mb-1">free access to more than 100 free mobile game</h2>
+                        <p class="mb-1">Get free access to over 100 incredible mobile games with Metaplay! Dive into a
+                            world of excitement, adventure, and non-stop entertainment—all at no cost.
+
+                            Whether you’re into action-packed shooters, brain-teasing puzzles, or immersive RPGs, our
+                            collection has something for everyone. Explore and play your favorite games anytime,
+                            anywhere—completely free!
+
+                            Start playing now and discover your next obsession. 🎮✨</p>
+                        <a href="download.html"><img src="images/misc/download-appstore.webp" alt="download"></a>&nbsp;
+                        <a href="download.html"><img src="images/misc/download-playstore.webp" alt="download"></a>
+                    </div>
+
+                    <img src="images/misc/rb_115058.png" class="dw-img" alt="" data-aos="zoom-out">
+                </div>
+            </div>
+        </section>
+        <section class="paymentmethods">
+            <div class="container">
+                <div class="flex flex-sb">
+                    <div data-aos="fade-right">
+                        <div class="subtitle mb-1">Payment Methods</div>
+                        <h2 class="title">We accept</h2>
+                    </div>
+                    <div data-aos="fade-left">
+                        <div class="flex gap-15">
+                            <div class="py-img" data-bgcolor="rgba(255, 255, 255, .05)">
+                                <img src="images/payments/visa.webp" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="py-img" data-bgcolor="rgba(255, 255, 255, .05)">
+                                <img src="images/payments/mastercard.webp" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="py-img" data-bgcolor="rgba(255, 255, 255, .05)">
+                                <img src="images/payments/paypal.webp" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="py-img" data-bgcolor="rgba(255, 255, 255, .05)">
+                                <img src="images/payments/skrill.webp" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="py-img" data-bgcolor="rgba(255, 255, 255, .05)">
+                                <img src="images/payments/jcb.webp" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="py-img" data-bgcolor="rgba(255, 255, 255, .05)">
+                                <img src="images/payments/american-express.webp" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="flex gap-2 flex-left">
+                <div class="w-33">
+                    <img src="images/logo.png" alt="" data-aos="fade-right">
+                    <p class="mt-1">Metaplay is your ultimate gaming destination, offering a vast collection of games for PC and consoles, unbeatable deals, and exclusive titles. Whether you're a casual gamer or a hardcore enthusiast, Metaplay delivers seamless shopping, exciting rewards, and a vibrant community. 🎮
+                    </p>
+                </div>
+                <div class="w-33">
+                    <div class="flex flex-left gap-2">
+                        <div class="w-66">
+                            <div class="widget">
+                                <h5 class="mb-1">underrated Games</h5>
+                                <ul>
+                                    <li><a href="#">Thunder and City</a></li>
+                                    <li><a href="#">Mystic Racing </a></li>
+                                    <li><a href="#">Silent Wrath</a></li>
+                                    <li><a href="#">Funk Dungeon</a></li>
+                                    <li><a href="#">Galactic Oddsey</a></li>
+                                    <li><a href="#">Warfare Legend</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-66">
+                            <div class="widget">
+                                <h5 class="mb-1">Pages</h5>
+                                <ul>
+                                    <li><a href="#">Game Server</a></li>
+                                    <li><a href="#">Knowledgebase</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Affliates</a></li>
+                                    <li><a href="#">Locations</a></li>
+                                    <li><a href="#">News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-33">
+                    <div class="widget">
+                        <h5 class="mb-1">Newsletter</h5>
+                        <form action="blank.php" class="form-dark" id="form_subscribe" method="post"
+                            name="form_subscribe" data-aos="fade-left">
+                            <div class="text-center">
+                                <input class="form-control" id="txt_subscribe" name="txt_subscribe"
+                                    placeholder="enter your email" type="text">
+                                <button type="submit" class="btn_2 p-absolute">$</button>
+                            </div>
+                        </form>
+                        <small>Your email is safe with us. We don't spam.</small>
+                        <div class="widget mt-2">
+                            <h5>Follow Us on</h5>
+                            <div class="social-icons flex gap-1 mt-1">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <div class="flex flex-sb">
+                    <div>
+                        Copyright &copy; 2025 - Metaplay
+                    </div>
+                    <ul class="menu-simple flex gap-2">
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- ANIMATION ON SCROLL CDN -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 1250,
+            once: true,
+        });
+    </script>
+
+    <!-- Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +) -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
+
+    <!-- Add this at the end of the body of your HTML file -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            speed: 1200,
+            watchSlidesProgress: true,
+            parallax: true,
+
+            // If we need pagination
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
